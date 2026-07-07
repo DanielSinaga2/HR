@@ -34,7 +34,7 @@ export function Sidebar() {
         <div className="flex h-10 w-10 items-center justify-center rounded-2xl bg-indigo-600 font-bold text-white">H</div>
         <div>
           <p className="font-bold text-slate-950">HIRA</p>
-          <p className="text-xs text-slate-500">AI Agent </p>
+          <p className="text-xs text-slate-500">AI Agent HRIS </p>
         </div>
       </Link>
       <nav className="grid gap-2 md:grid-cols-3 lg:grid-cols-1">
