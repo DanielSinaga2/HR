@@ -35,7 +35,7 @@ export function ApprovalCard({ id, employeeName, type, detail, createdAt, status
           </div>
         </div>
         <div className="flex gap-2">
-          <Button variant="outline" onClick={onReject} disabled={status !== ""}>
+          <Button variant="outline" onClick={onReject} disabled={status !== "PENDING"}>
             <XCircle className="h-4 w-4" />
             Reject
           </Button>
